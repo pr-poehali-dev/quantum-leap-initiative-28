@@ -31,6 +31,9 @@ export function Navbar() {
               <a href="#faq" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
                 Вопросы
               </a>
+              <a href="#contacts" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
+                Контакты
+              </a>
             </div>
           </div>
 
@@ -74,6 +77,13 @@ export function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Вопросы
+              </a>
+              <a
+                href="#contacts"
+                className="block px-3 py-2 font-geist text-white hover:text-red-500 transition-colors duration-200"
+                onClick={() => setIsOpen(false)}
+              >
+                Контакты
               </a>
               <div className="px-3 py-2">
                 <Button className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">
