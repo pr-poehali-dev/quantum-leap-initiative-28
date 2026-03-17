@@ -11,9 +11,11 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="font-orbitron text-xl font-bold text-white">
-              Novo<span className="text-red-500">Step</span>
-            </h1>
+            <img
+              src="https://cdn.poehali.dev/projects/42419e41-2181-4bf9-919b-f81540f37b8a/bucket/2afd84dd-4ad6-4c91-8568-a584e6c3c092.png"
+              alt="NovoStep"
+              className="h-10 w-auto invert"
+            />
           </div>
 
           {/* Desktop Navigation */}

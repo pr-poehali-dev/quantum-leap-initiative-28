@@ -7,9 +7,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              Novo<span className="text-red-500">Step</span>
-            </h2>
+            <img
+              src="https://cdn.poehali.dev/projects/42419e41-2181-4bf9-919b-f81540f37b8a/bucket/2afd84dd-4ad6-4c91-8568-a584e6c3c092.png"
+              alt="NovoStep"
+              className="h-12 w-auto invert mb-4"
+            />
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               Создаём кроссовки, которые вдохновляют двигаться вперёд — каждый день, в любых условиях.
             </p>
